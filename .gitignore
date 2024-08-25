@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Firebase related files
+firebase-debug.log
+.firebase/
+functions/node_modules/
+functions/package-lock.json
+
+# Dialogflow agent specific
+dialogflow_agent/fulfillment/node_modules/
+dialogflow_agent/fulfillment/package-lock.json
+dialogflow_agent/agent.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code files
+.vscode/
+
+# IDE specific
+.idea/
+*.iml
+
+# Other
+coverage/
+
+docs/images/*
